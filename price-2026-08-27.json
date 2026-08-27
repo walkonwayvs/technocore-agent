@@ -6,7 +6,7 @@
   },
   "min": 0.022000000000000002,
   "min_model": "mistralai/mistral-nemo",
-  "median": 0.75,
+  "median": 0.755,
   "max": 210.0,
   "max_model": "openai/o1-pro",
   "n": 392
