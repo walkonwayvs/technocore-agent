@@ -3,3 +3,4 @@ public.json
 .venv/
 __pycache__/
 *.log
+.passphrase

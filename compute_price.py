@@ -32,4 +32,4 @@ print(line)
 json.dump({"date": day, "job": {"input": IN, "output": OUT},
            "min": lo[0], "min_model": lo[1], "median": med,
            "max": hi[0], "max_model": hi[1], "n": len(rows)},
-          open(f"price-{day}.json", "w"), indent=2)
+          open(f"data/price-{day}.json", "w"), indent=2)

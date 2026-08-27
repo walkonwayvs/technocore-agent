@@ -6,7 +6,11 @@ pub = json.load(open("public.json"))
 DID, FP = pub["did"], pub["fingerprint"]
 
 def key():
-    pw = getpass.getpass("passphrase: ").encode()
+    import os
+    if os.path.exists(".passphrase"):
+        pw = open(".passphrase","rb").read().strip()
+    else:
+        pw = getpass.getpass("passphrase: ").encode()
     return serialization.load_pem_private_key(open("identity.pem","rb").read(), password=pw)
 
 def get(url):
