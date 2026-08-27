@@ -1,0 +1,13 @@
+{
+  "date": "2026-08-27",
+  "job": {
+    "input": 1000000,
+    "output": 100000
+  },
+  "min": 0.022000000000000002,
+  "min_model": "mistralai/mistral-nemo",
+  "median": 0.75,
+  "max": 210.0,
+  "max_model": "openai/o1-pro",
+  "n": 392
+}
