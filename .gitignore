@@ -4,3 +4,4 @@ public.json
 __pycache__/
 *.log
 .passphrase
+.posted-*
