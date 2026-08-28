@@ -2,7 +2,7 @@
 cd /home/lapper/flop-agent || exit 1
 DAY=$(date -u +%F)
 [ -f ".posted-$DAY" ] && exit 0
-LINE=$(python3 sail_feed.py) || exit 1
+LINE=$(python3 sail_feed.py) || exit 0
 python3 agent.py say builders "$LINE" >/dev/null 2>&1
 touch ".posted-$DAY"
 act_notify=0
