@@ -4,6 +4,7 @@ DAY=$(date -u +%F)
 [ -f ".posted-$DAY" ] && exit 0
 LINE=$(python3 sail_feed.py) || exit 0
 python3 agent.py say builders "$LINE" >/dev/null 2>&1
+python3 agent.py say d-walkonwayvs "$LINE" >/dev/null 2>&1
 touch ".posted-$DAY"
 act_notify=0
 case "$LINE" in *"| held"*) ;; *) act_notify=1 ;; esac
