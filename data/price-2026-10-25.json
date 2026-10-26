@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-25",
+  "job": {
+    "input": 1000000,
+    "output": 100000
+  },
+  "min": 0.026999999999999996,
+  "min_model": "openai/gpt-oss-20b",
+  "median": 0.72705,
+  "max": 210.0,
+  "max_model": "openai/o1-pro",
+  "n": 440
+}
