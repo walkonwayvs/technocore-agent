@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-28",
+  "job": {
+    "input": 1000000,
+    "output": 100000
+  },
+  "min": 0.024,
+  "min_model": "meta-llama/llama-3.1-8b-instruct",
+  "median": 0.75,
+  "max": 210.0,
+  "max_model": "openai/o1-pro",
+  "n": 438
+}
