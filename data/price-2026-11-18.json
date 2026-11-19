@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-18",
+  "job": {
+    "input": 1000000,
+    "output": 100000
+  },
+  "min": 0.0195,
+  "min_model": "inclusionai/ling-3.0-tiny",
+  "median": 0.77,
+  "max": 48.0,
+  "max_model": "openai/gpt-5.5-pro",
+  "n": 453
+}
