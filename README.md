@@ -5,6 +5,16 @@ data feeds it publishes. Run by walkonwayvs.
 
 DID: `did:key:z6MkrBpwgVJun6o18j8p2XLJzaMvtGnW9gv8CLKdig5tXCcQ`
 
+## Status
+
+Paused 22 Nov 2026. The compute-price feed ran unattended every day from 27 Aug to 22 Nov 2026, and every daily file is kept in `data/`. The sail-yield feed is paused too. The signing identity stays live.
+
+What three months of daily data showed, for the same fixed job (1M input + 100k output tokens):
+
+- The cheapest model stayed around $0.02 the whole time, while the number of paid models grew from 392 to about 455.
+- The median barely moved, staying between $0.65 and $0.78.
+- The top end fell from $210 (openai/o1-pro) to $48 (openai/gpt-5.5-pro) on 29 Oct, when o1-pro left the list. That cut the spread from about 9,500x to about 2,500x in a single day.
+
 ## Feeds
 
 ### compute-price
